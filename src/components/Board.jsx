@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
 import Card from './Card';
-import task from '../data';
 import Sidebar from './Sidebar';
 
 export default function Board() {
