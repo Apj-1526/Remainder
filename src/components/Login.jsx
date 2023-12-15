@@ -2,7 +2,7 @@ import React from 'react'
 
 function Login() {
   return (
-      <div className=' bg-no-repeat bg-cover bg-[url("https://static.vecteezy.com/system/resources/thumbnails/008/506/635/small/cute-forest-with-deer-on-mountains-forest-wall-for-children-cute-deer-background-nursery-wallpaper-for-baby-room-room-design-png.png")] h-[550px] w-[700px] rounded-xl flex flex-col justify-evenly items-center '>
+      <div className=' bg-no-repeat bg-cover bg-[url("https://static.vecteezy.com/system/resources/thumbnails/008/506/635/small/cute-forest-with-deer-on-mountains-forest-wall-for-children-cute-deer-background-nursery-wallpaper-for-baby-room-room-design-png.png")] h-[550px] w-[700px] rounded-xl flex flex-col justify-evenly items-center absolute left-0 right-0 top-0 bottom-0 m-auto z-10 bg-white'>
       <h1 style={{fontWeight:'bold'}} className='flex justify-center text-3xl '>WELCOME</h1>
         <input className='h-[50px] w-[250px] rounded-2xl text-center border-none outline-none shadow-md' type="text" placeholder='email/username' />
         <input className='h-[50px] w-[250px] rounded-2xl text-center border-none outline-none shadow-md' type="text" placeholder='password' />
